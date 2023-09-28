@@ -1,2 +1,8 @@
-# Website
-Testing...-1-2-3
+<html>
+ <head>
+  <title>PHP-Test</title>
+ </head>
+ <body>
+  <?php echo '<p>Hello World</p>'; ?>
+ </body>
+</html>
