@@ -1,7 +1,7 @@
 
-let userinput,comp, Rock='Rock', Paper='Paper', Scissor='Scissor', result, score=JSON.parse(localStorage.getItem('score')) || { win:0,losses:0,ties:0},Reset='Reset';
+let userinput,comp, Rock='Rock', Paper='Paper', Scissor='Scissor', result, score=JSON.parse(sessionStorage.getItem('score')) || { win:0,losses:0,ties:0},Reset='Reset';
 function hello(userinput){
-let comp = Math.random(); 
+  comp = Math.random(); 
   if(comp<=1/3)
     comp='Rock';
     else if(comp>=2/3)
@@ -28,7 +28,7 @@ let comp = Math.random();
     score.ties=0;
     comp='to agree';
     result='score reset';
-    localStorage.removeItem(score);
+    sessionStorage.removeItem(score);
     
   }
   
@@ -37,6 +37,7 @@ let comp = Math.random();
         result='WIN for you';
         score.win++;
       }
+  sessionStorage.setItem('score',JSON.stringify(score));
   update();
 
   function update(){
