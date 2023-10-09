@@ -1,0 +1,23 @@
+.button:hover{
+  opacity:50%;
+  cursor: pointer;
+}
+
+
+.button{
+  margin-right: 10px;
+  background-color:gray;
+  color: white;
+  padding: 15px;
+  border-style: hidden;
+  border-radius: 30px;
+  font-size: 25px;
+  padding-inline: 40px;
+}
+.padding{
+  padding-top: 125px;
+}
+.js_score{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:140% ;
+}
