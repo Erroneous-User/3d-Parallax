@@ -25,8 +25,18 @@
     opacity: 0.5;
 }
   .header1{
-    font-size: medium;
+    font-size: small;
 
 }
 
+}
+@media screen and (max-width:900px) and (min-width:600px){
+  .logo {
+    width: 30px;
+    opacity: 0.5;
+}
+  .header1{
+    font-size: medium;
+
+}
 }
