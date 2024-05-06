@@ -324,3 +324,40 @@ main {
     rgba(0,0,0,0.7));
     pointer-events: none;
 }
+@media (max-width: 768px) {
+    .logo {
+        width: 70px;
+    }
+    
+    header {
+        padding: 0.5rem 0;
+    }
+  
+    header nav {
+        padding: 0 1rem;
+    }
+  
+    .hamburger {
+        padding: 1rem;
+    }
+  
+    .hamburger a {
+        width: 28px;
+        height: 28px;
+    }
+  
+    .text h2 {
+        font-size: 4rem;
+    }
+  
+    .text h1 {
+        font-size: 6rem;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
