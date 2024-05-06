@@ -361,3 +361,58 @@ main {
       font-size: 1rem;
     }
   }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+img,
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Flex container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Wrapping img elements */
+.container img {
+    flex: 1 0 auto;
+}
+
+
+/* Responsive img
+Your image will scale up and down with the width of its container. Subsequent rules make the harmonious height and width adjustments as the window is resized. */
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 1200px) {
+    /* changes for screens smaller than 1200px */
+ 
+    .container img,
+    .logo {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+ 
+@media screen and (max-width: 600px) {
+    /* changes for screens smaller than 600px */
+ 
+    .container img,
+    .logo {
+        max-width: 100%;
+        width: 100%;
+    }
+}
