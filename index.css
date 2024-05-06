@@ -1,26 +1,19 @@
 .transparent-button {
   background-color:transparent;
-  border: 1px;
-  border-style: solid;
+  border: 1px solid white;
   padding: 20px;
-  border-color: white;
-  
   font-size: medium;
-  
   border-radius: 30px;
-  font-size: 20px;
+  transition: all 0.5s ease;
 }
-.transparent-button:hover{
+
+.transparent-button:hover {
   z-index: 100;
-  opacity:50%;
+  opacity:0.5;
   cursor: pointer;
-  transition-duration: 0.5s;
 }
-
-
-.list-head{
+.list-head {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 150px;
-
 }
