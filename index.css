@@ -1,68 +1,26 @@
-.red-button {
-  background-color:RED;
-  color: white ;
-  border: 5px;
+.transparent-button {
+  background-color:transparent;
+  border: 1px;
+  border-style: solid;
   padding: 20px;
+  border-color: white;
   
   font-size: medium;
-  border-color: black;
+  
   border-radius: 30px;
   font-size: 20px;
 }
-.red-button:hover{
+.transparent-button:hover{
   z-index: 100;
   opacity:50%;
   cursor: pointer;
   transition-duration: 0.5s;
 }
 
-.project1 {
-  font-size: 50px;
-  padding-top: 0px;
-  padding-left: 50%;
-  padding-right: 50%;
-  padding-bottom: 20px;
-  background: solid;
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  border-bottom: 2px solid black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-}
-  
 
 .list-head{
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 150px;
 
-}
-.list{
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 10px;
-
-}
-
-.body{
-  padding-bottom: 1000px;
-}
-.project {
-  
-  z-index: 1000;
-  top: 0;
-  font-size: 50px;
-  padding: 20px 0;
-  background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  border-bottom: 2px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  left: 0;
-  right: 0;
 }
