@@ -343,7 +343,7 @@ main {
         padding:0 1rem;
     }
     .logo{
-        width:75px;
+        width:50px;
     }
     header ul a{
         font-size:0.73rem;
@@ -379,12 +379,12 @@ main {
     }
     .mountain-9 {
         width: initial;
-        height: 52.224%;
+        height: 164.224%;
     }
     
     .mountain-8 {
         width: initial;
-        height: 90.0%;
+        height: 103%;
     }
     
     .fog-5 {
@@ -423,7 +423,7 @@ main {
     
     .mountain-3 {
         width: initial;
-        height: 66.672%;
+        height: 106.67%;
     }
     
     .fog-2 {
@@ -433,13 +433,13 @@ main {
     
     .mountain-2 {
         width: initial;
-        height: 88.896%;
+        height: 0%;
     
     }
     
     .mountain-1 {
         width: initial;
-        height: 66.672%;
+        height: 101.672%;
     }
     
     .fog-1 {
