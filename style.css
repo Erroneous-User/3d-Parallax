@@ -456,6 +456,11 @@ main {
         width: initial;
         height: 160.0%;
     }
+    header nav{
+        padding:0px;}
+    
+    header {
+        padding:0px;}
 
 @media(max-width:520px){
     .text h1{
