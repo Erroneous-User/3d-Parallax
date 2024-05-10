@@ -1,29 +1,29 @@
 <?php
 session_start();
-if(!isset($_SESSION['user_id']))
-{
-  header("Location:project2/login_signup.php");
-  die;
+if (!isset($_SESSION['user_id'])) {
+    header("Location: project2/login_signup.php");
+    die;
 }
-if(isset($_POST['logout']))
-{
-  unset($_SESSION['user_id']);
-  unset($_SESSION['user_name']);
-  unset($_SESSION['name']);
-  header("Location: login_signup.php");
-  exit;
+if (isset($_POST['logout'])) {
+    unset($_SESSION['user_id']);
+    unset($_SESSION['user_name']);
+    unset($_SESSION['name']);
+    header("Location: project2/login_signup.php");
+    exit;
 }
-
 ?>
 
 <!DOCTYPE html>
-<html>  
-  <head>
-    <body>
-      <form method="post">
-      <button type="submit" name="logout">Log out</button>
-      </form>
-      Hello <?php echo ($_SESSION['name']);?>
-    </body>
-  </head>
+<html lang="en">  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logout Page</title>
+</head>
+<body>
+  <form method="post" action="">
+    <button type="submit" name="logout" aria-label="Log out of your account">Log out</button>
+  </form>
+  <p>Hello <?php echo htmlspecialchars($_SESSION['name']); ?></p>
+</body>
 </html>
