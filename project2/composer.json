@@ -1,0 +1,20 @@
+{
+    "name": "adars/w2",
+    "description": "A brief description of what your project does.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Adars\\W2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erroneous User",
+            "email": "adarshkumar.19200019@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.18"
+    }
+}
