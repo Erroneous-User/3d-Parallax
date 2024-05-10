@@ -20,16 +20,16 @@ if (isset($_POST['signin'])) {
           $_SESSION['user_id'] = (string) $result->_id;
           $_SESSION['user_name'] = $result->user_name;
           $_SESSION['name'] = $result->name;
-          header('Location: index.php');
+          header('Location: project2/index.php');
           exit;
       } else {
           $_SESSION['signin_error'] = 'Incorrect Email or Password!';
-          header('Location: login_signup.php'); // Redirect back to the form page
+          header('Location: project2/login_signup.php'); // Redirect back to the form page
           exit;
       }
   } catch (Exception $e) {
       $_SESSION['signin_error'] = 'Error: ' . $e->getMessage();
-      header('Location: login_signup.php');
+      header('Location: project2/login_signup.php');
       exit;
   }
 }
@@ -72,7 +72,7 @@ if (isset($_POST['signup'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up and Sign In Form</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="project2/index.css">
 </head>
 <body>
   <div class="container" id="container" role="main">
