@@ -14,6 +14,7 @@ body {
     background-color: #0b372dbb;
 }
 
+
 .logo {
     width: 100px;
     opacity: 0.5;
@@ -48,10 +49,10 @@ header ul {
 
 header ul a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     padding: 0 1.5rem;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 0.83rem;
 }
 
@@ -336,7 +337,7 @@ main {
         width:50px;
     }
     header ul a{
-        font-size:0.73rem;
+        font-size:1.1rem;
         padding:0 0.9rem;
     }
     .search a{
